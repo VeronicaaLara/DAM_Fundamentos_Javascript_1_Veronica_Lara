@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+
+
+
+<script>
+	var texto = prompt ("Introduce un texto");
+	var a = 0;
+	var e = 0;
+	var i = 0;
+	var o = 0;
+	var u = 0;
+	for (var i = 0; i < texto.length; i++){
+		
+		switch (texto.charAt(i)){
+
+			case 'a':
+			a ++;
+			break;
+
+			case 'e':
+			e ++;
+			break;
+
+			case 'i':
+			i ++;
+			break;
+
+			case 'o':
+			o ++;
+			break;
+
+			case 'u':
+			u ++;
+
+		}
+		document.write("A" + a + "E" + e + "I" + i + "O" + o + "U" + u);
+	}
+ 
+
+ 
+</script>
+	
+</body>
+</html>

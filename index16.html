@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+
+
+<script >
+	var num1 = prompt("Introduce el primer número entero");
+	var num2 = prompt("Introduce el segundo número entero");
+	var esMenor;
+	var i;
+
+	if (num1 < num2){
+		esMenor = num1;
+	}else{
+		esMenor = num2;
+	}
+	
+	for (var i = 2; i < esMenor/2; i++){
+		if(num1 % i == 0 && num2 % i == 0){
+			document.write("Los divisores comunes son:" + i);
+		}
+	}
+</script>
+</body>
+</html>
